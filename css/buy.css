@@ -1,0 +1,159 @@
+.buyTip{
+    width: 100vw;
+    height: 89px;
+    line-height: 89px;
+    font-size: 30px;
+    border-bottom: 1px solid #ccc;
+    margin: 0 auto;
+}
+
+.buyTip p{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.buyContent{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.buyContent > div{
+    flex: 1;
+}
+
+.proTitle p{
+    height: 70px;
+    font-size: 26px;
+    line-height: 70px;
+}
+
+.proTitle > div{
+    display: flex;
+    justify-content: left;
+}
+
+.proTitle > div > span{
+    display: inline-block;
+    color: skyblue;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.proTit{
+    height: 70px;
+    font-size: 23px;
+    line-height: 70px;
+    text-align: left;
+    text-indent: 10px;
+}
+
+.prodetail .proColor{
+    position: relative;
+    width: 220px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #999;
+    border-radius: 10px;
+}
+
+.prodetail .proColor .colorBlock{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #999;
+    justify-items: center;
+}
+
+.prodetail .proColor p{
+    width: 100%;
+    text-align: center;
+}
+
+.proDesc .DescType{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+}
+
+.proDesc .DescType div{
+    width: 92%;
+    margin-right: 2%;
+    height: 32px;
+    line-height: 32px;
+    background: deepskyblue;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.descContent{
+    margin-top: 30px;
+}
+
+.descContent ul{
+    list-style: none;
+}
+
+.descContent ul li{
+    text-indent: 20px;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.descContent ul li span:last-child{
+    margin-left: 30px;
+}
+
+.descContent ul li span i{
+    display:inline-block;
+    padding-left: 100%;
+    width:100%;
+}
+
+.buyQuestion{
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid #cccccc;
+}
+
+.buyQuestion .question{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.questionContent{
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.questionContent .quesTitle{
+    color: #000;
+    line-height: 40px;
+}
+
+.questionContent .questAnswer{
+    color: #ccc;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.questionContent .questAnswer p{
+    margin-top: 20px;
+}
+
+.buyHelp{
+    width: 100%;
+    margin: 0 auto;
+    height: 90px;
+    background: #ddd;
+}

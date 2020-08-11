@@ -2913,3 +2913,11 @@ img, object { max-width: 100%;}
 	}	
 	.problem_li_li_info{ display:none}
 }
+
+
+.phone_fixed_o >.phone_fixed_ot > .phone_fixed_otn{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+

@@ -1,0 +1,221 @@
+
+.footerTip:first-child{
+    margin-top: 810px;
+}
+
+.footerTip{
+    width: 100vw;
+    background: #fff;
+    z-index: 9;
+    border-bottom: 1px solid #ddd;
+}
+
+.footerTip .title{
+    width: 90%;
+    margin-left: 5%;
+    height: 2.5em;
+    margin-top: 0.25em;
+    line-height: 2.5em;
+    text-align: left;
+    color: #333;
+}
+
+.footerTip ul{
+    display: none;
+    list-style: none;
+    width: 100%;
+    transition: all .3s;
+}
+
+.footerTip ul li{
+    width: 90%;
+    margin-left: 5%;
+    height: 2.5em;
+    margin-top: 0.25em;
+    line-height: 2.5em;
+    text-indent: 3em;
+    color: #757575;
+}
+
+footer .company{
+    width: 100vw;
+    height: 5em;
+    line-height: 5em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+.tabBar{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 5em;
+    line-height: 5em;
+    display: flex;
+    background: #f0f0f0;
+    z-index: 3;
+}
+
+.tabBar .tab{
+    width: 19%;
+    text-align: center;
+    line-height: 5em;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tabBar .tab img{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.showTab{
+    width: 5em;
+    height:  3em;
+    line-height: 3em;
+    position: fixed;
+    bottom: 0;
+    display: none;
+}
+
+.showTab img{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.topTip{
+    width: 100vw;
+    height: 0px;
+    position: fixed;
+    top: 45px;
+    background: #333333;
+    z-index: 999;
+    transition: height .5s;
+    overflow: hidden;
+}
+
+.topTip ul{
+    list-style: none;
+    width: 100%;
+}
+
+.topTip ul li{
+    width: 90%;
+    margin-left: 5%;
+    line-height: 3em;
+    height: 3em;
+    border-bottom: 1px solid #ccc;
+    font-size: 18px;
+    color: #fff;
+}
+
+.topTip ul li:last-child{
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.self{
+    width: 100vw;
+    height: 0px;
+    position: fixed;
+    top: 45px;
+    background: #fff;
+    z-index: 999;
+    transition: height .5s;
+    overflow: hidden;
+}
+
+.self ul{
+    list-style: none;
+    width: 100%;
+}
+
+.self ul li{
+    width: 90%;
+    margin-left: 5%;
+    line-height: 3em;
+    height: 3em;
+    border-bottom: 1px solid #333;
+    font-size: 18px;
+    color: #333;
+}
+
+.self ul li:last-child{
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.types{
+    display: block;
+    position: fixed;
+    transition: bottom .2s;
+    bottom: 1em;
+    width: 100vw;
+    height: 4em;
+    background: #333333;
+    z-index: 2;
+}
+
+.types a{
+    display: inline-block;
+    width: 24%;
+    height: 2em;
+    text-align: center;
+    line-height: 2em;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

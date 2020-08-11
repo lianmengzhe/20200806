@@ -1,0 +1,70 @@
+.parameters{
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.parameters .title{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.parameters .look .lookTitle{
+    width: 100%;
+    height: 30px;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.parameters .price,
+.parameters .style,
+.parameters .paramter{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.parameters .price > div,
+.parameters .style > div,
+.parameters .paramter > div{
+    flex: 1;
+}
+
+.parameters .price > div > p,
+.parameters .style > div > p,
+.parameters .paramter > div > p{
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.parameters .price > div:first-child,
+.parameters .style > div:first-child,
+.parameters .paramter > div:first-child{
+    height: 30px;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.parameters .price > div > ul,
+.parameters .style > div > ul,
+.parameters .paramter > div > ul{
+    list-style: none;
+}
+
+.parameters .price > div > ul > li:first-child,
+.parameters .style > div > ul > li:first-child,
+.parameters .paramter > div > ul > li:first-child{
+    font-weight: bolder;
+}
+
+.parameters .price > div > ul > li,
+.parameters .style > div > ul > li,
+.parameters .paramter > div > ul > li{
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+}

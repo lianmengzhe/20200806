@@ -1,0 +1,150 @@
+.informSmall{
+    width: 100vw;
+    height: 100px;
+}
+
+.informSmall .informations{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.informSmall .informations .informItem{
+    text-align: center;
+    flex: 1;
+}
+
+.informSmall .informations .informItem img{
+    margin-top: 10px;
+    text-align: center;
+    width: 100px;
+    height: 60px;
+}
+
+.informSmall .informations .informItem p{
+    text-align: center;
+    font-size: 14px;
+}
+
+.detailInformation{
+    width: 100%;
+    height: 270px;
+    margin:160px auto auto auto ;
+    display: flex;
+}
+
+.detailInformation .detailContent{
+    flex: 1;
+}
+
+.detailInformation .detailContent .productTitle{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: #333;
+
+}
+
+.detailInformation .detailContent .productDes p{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+}
+
+.detailInformation .detailContent .productAct{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: skyblue;
+}
+
+.detailInformation .detailContent .productImg{
+    width: 100%;
+    text-align: center;
+}
+
+.detailInformation .detailContent .productTitle,
+.detailInformation .detailContent .productAct,
+.detailInformation .detailContent .productDes p,
+.detailInformation .detailContent .productImg{
+    margin: 0 0 10px;
+}
+
+.detailInformation img{
+    width: 70%;
+    flex: 1;
+}
+
+
+
+.detailContent .productAct a{
+    text-decoration:none ;
+    color: skyblue;
+    border: 0;
+}
+
+.mobiledetailInformation{
+    width: 100%;
+    height: 270px;
+    margin:100px auto auto auto ;
+}
+
+.mobiledetailInformation .detailContent{
+
+}
+
+.mobiledetailInformation .detailContent .productTitle{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: #333;
+
+}
+
+.mobiledetailInformation .detailContent .productDes p{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+}
+
+.mobiledetailInformation .detailContent .productAct{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: skyblue;
+}
+
+.mobiledetailInformation .detailContent .productImg{
+    width: 100%;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.mobiledetailInformation .detailContent .productTitle,
+.mobiledetailInformation .detailContent .productAct,
+.mobiledetailInformation .detailContent .productDes p,
+.mobiledetailInformation .detailContent .productImg{
+    margin: 0 0 10px;
+}
+
+.mobiledetailInformation img{
+    width: 70%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}

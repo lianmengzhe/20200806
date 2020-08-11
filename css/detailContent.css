@@ -1,0 +1,119 @@
+
+
+.products{
+    width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.products .productTitle{
+    padding-top: 42px;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 42px;
+    color: #333;
+}
+
+.products .productDes p{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+}
+
+.products .productAct{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 21px;
+    color: skyblue;
+}
+
+.products .productImg{
+    width: 100%;
+    text-align: center;
+}
+
+.products .productTitle,
+.products .productAct,
+.products .productDes p,
+.products .productImg{
+    margin: 0 0 10px;
+}
+
+.products .productDesc{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+    color: #333;
+}
+
+.smallProduct{
+    display: flex;
+}
+
+.smallProduct .smallProductDes{
+    width: 80%;
+}
+
+.smallProduct img{
+    width: 20%;
+    height: 180px;
+    position: relative;
+    top: 90px;
+}
+
+.products .smallProduct .productTitle{
+    padding-top: 42px;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: left;
+    font-size: 42px;
+    color: #333;
+}
+
+.products .smallProduct .productDes p{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    font-size: 28px;
+    color: #333;
+}
+
+.products .smallProduct .productAct{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    font-size: 21px;
+    color: skyblue;
+}
+
+.products .smallProduct .productImg{
+    width: 100%;
+    text-align: left;
+}
+
+.products .smallProduct .productTitle,
+.products .smallProduct .productAct,
+.products .smallProduct .productDes p,
+.products .smallProduct .productImg{
+    margin: 0 0 10px;
+}
+
+.products .smallProduct .productDesc{
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    line-height: 28px;
+    color: #333;
+}
+
